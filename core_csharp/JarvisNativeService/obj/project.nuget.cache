@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "dfyVKUPV3hE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\IA\\IA\\J.A.R.V.I.S-main\\core_csharp\\JarvisNativeService\\JarvisNativeService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.configuration.configurationmanager\\10.0.12\\system.configuration.configurationmanager.10.0.12.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.diagnostics.eventlog\\10.0.12\\system.diagnostics.eventlog.10.0.12.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.diagnostics.performancecounter\\10.0.12\\system.diagnostics.performancecounter.10.0.12.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.security.cryptography.protecteddata\\10.0.12\\system.security.cryptography.protecteddata.10.0.12.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\system.threading.accesscontrol\\10.0.12\\system.threading.accesscontrol.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

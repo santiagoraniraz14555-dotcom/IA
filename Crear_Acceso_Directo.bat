@@ -1,0 +1,4 @@
+@echo off
+title Crear Acceso Directo de J.A.R.V.I.S. en el Escritorio
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$desktopPath = [Environment]::GetFolderPath('Desktop'); $projectDir = '%~dp0'.TrimEnd('\'); $targetScript = Join-Path $projectDir 'Iniciar_JARVIS_Escritorio.vbs'; $shortcutPath = Join-Path $desktopPath 'J.A.R.V.I.S.lnk'; $WshShell = New-Object -ComObject WScript.Shell; $Shortcut = $WshShell.CreateShortcut($shortcutPath); $Shortcut.TargetPath = 'wscript.exe'; $Shortcut.Arguments = '\"' + $targetScript + '\"'; $Shortcut.WorkingDirectory = $projectDir; $Shortcut.Description = 'J.A.R.V.I.S. Autonomous Cognitive System'; $Shortcut.IconLocation = 'shell32.dll,238'; $Shortcut.Save(); Write-Host '[OK] Acceso directo J.A.R.V.I.S. creado en el Escritorio:' $shortcutPath -ForegroundColor Green"
+pause

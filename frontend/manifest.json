@@ -1,0 +1,17 @@
+{
+  "name": "J.A.R.V.I.S. Cognitive System",
+  "short_name": "J.A.R.V.I.S.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#07040d",
+  "theme_color": "#a855f7",
+  "description": "Sistema de Inteligencia Artificial Autónomo y Programador Políglota entrenado por Antigravity",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
